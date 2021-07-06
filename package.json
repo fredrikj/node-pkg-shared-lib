@@ -11,6 +11,8 @@
   },
   "pkg": {
     "assets": [
+      "node_modules/ref-struct/node_modules/ref/build/Release/binding.node",
+      "node_modules/ffi/node_modules/ref/build/Release/binding.node",
       "node_modules/ffi/build/Release/ffi_bindings.node",
       "node_modules/ref/build/Release/binding.node"
     ],
@@ -27,7 +29,8 @@
   },
   "homepage": "https://github.com/fredrikj/node-pkg-shared-lib#readme",
   "dependencies": {
-    "ffi": "github:pedrotari7/node-ffi"
+    "ffi": "github:pedrotari7/node-ffi",
+    "ref": "github:pedrotari7/ref"
   },
   "devDependencies": {
     "@types/ffi": "^0.2.3",

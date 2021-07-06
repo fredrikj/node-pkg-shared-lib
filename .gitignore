@@ -1,3 +1,4 @@
 mylib.o
 mylib.so
 node_modules
+dist
